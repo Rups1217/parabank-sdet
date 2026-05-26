@@ -7,6 +7,7 @@ Playwright + TypeScript UI automation framework for the Parabank demo applicatio
 - Playwright Test
 - TypeScript
 - Page Object Model
+- GitHub Actions (CI/CD)
 
 ## Project structure
 
@@ -17,8 +18,14 @@ Playwright + TypeScript UI automation framework for the Parabank demo applicatio
 - `playwright.config.ts` – Playwright configuration
 - `tsconfig.json` – TypeScript configuration
 
-## Setup
+## How to Run
 
 ```bash
+Install dependencies:
 npm install
+Install browsers:
 npx playwright install
+Run all tests:
+npx playwright test
+View HTML report:
+npx playwright show-report
